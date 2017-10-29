@@ -1,0 +1,65 @@
+﻿<html>
+<head>
+<title>CSS Table Div</title>
+<style>
+html,body{font:14px arial,verdana,san-serif;}
+.container{
+    display:table;
+    width:700px;
+    border-collapse:collapse;
+    margin:1 auto;
+    line-height:25px;
+}
+.table-row:hover{background-color:#99ccff;}
+.heading{
+    font-weight:bold;
+    display:table-row;
+    background-color:green;
+    text-align:center;
+    line-height:25px;
+    color:#ffffff;
+}
+.table-row{ 
+    display:table-row;
+    text-align:center;
+}
+.strip{ 
+    display:table-row;
+    text-align;
+    background-color:#f0f0f0;
+}
+.col{ 
+display:table-cell;
+border: 3px solid #CCC;
+}
+</style>
+</head>
+<body>
+<h1>LATAR BELAKANG PENDIDIKAN</h1>
+<hr/><br/>
+<div class="container">
+
+    <div class="heading">
+        <div class="col"><b>Tahun</b></div>
+        <div class="col"><b>Tempat Pendidikan</b></div>
+    </div>
+    <div class="table-row">
+        <div class="col">2015-Sekarang</div>
+        <div class="col">Institut Teknologi Bandung</div>
+    </div>
+    <div class="table-row strip">
+        <div class="col">2012-2015</div>
+        <div class="col">SMK Merdeka Bandung</div>
+    </div>
+    <div class="table-row">
+        <div class="col">2009-2012</div>
+        <div class="col">SMPN 19 Bandung</div>
+    </div>
+    <div class="table-row strip">
+        <div class="col">2003-2009</div>
+        <div class="col">SDN Cigadung</div>
+    </div>   
+
+</div>
+</body>
+</html>
